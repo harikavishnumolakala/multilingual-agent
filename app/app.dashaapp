@@ -1,0 +1,11 @@
+{
+  "name": "multilingual-onboarding",
+  "version": "1.0.0",
+  "description": "Multilingual onboarding agent",
+  "applicationType": "text-to-text",
+  "dialogue": {
+    "entryPoint": "app.dsl"
+  }
+}
+
+
