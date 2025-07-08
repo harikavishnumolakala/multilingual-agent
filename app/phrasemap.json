@@ -1,0 +1,19 @@
+{
+  "formatVersion": "1.0",
+  "phrases": {
+    "welcome": {
+      "en": "Welcome to HelpU onboarding. Press 1 for Hindi, 2 for Telugu, 3 for English."
+    }
+  },
+  "intents": {
+    "greetings": {
+      "includes": [
+        "hello",
+        "hi",
+        "hey"
+      ]
+    }
+  },
+  "patterns": {},
+  "entities": {}
+} 

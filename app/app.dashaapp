@@ -1,10 +1,17 @@
 {
+  "formatVersion": "2",
   "name": "multilingual-onboarding",
-  "version": "1.0.0",
   "description": "Multilingual onboarding agent",
-  "applicationType": "text-to-text",
+  "nlu": {
+    "skills": [],
+    "language": "en-US"
+  },
+  "nlg": {
+    "type": "phrases",
+    "file": "phrasemap.json"
+  },
   "dialogue": {
-    "entryPoint": "app.dsl"
+    "file": "app.dsl"
   }
 }
 

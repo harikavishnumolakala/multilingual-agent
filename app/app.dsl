@@ -13,9 +13,9 @@ start node root {
     wait *;
   }
   transitions {
-    hindi: goto onboarding_hindi on #messageHasIntent("number") && #getMessageText() == "1";
-    telugu: goto onboarding_telugu on #messageHasIntent("number") && #getMessageText() == "2";
-    english: goto onboarding_english on #messageHasIntent("number") && #getMessageText() == "3";
+    hindi: goto onboarding_hindi on #getMessageText() == "1";
+    telugu: goto onboarding_telugu on #getMessageText() == "2";
+    english: goto onboarding_english on #getMessageText() == "3";
     default: goto onboarding_english on true;
   }
 }
