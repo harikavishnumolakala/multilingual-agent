@@ -16,11 +16,11 @@ start node root {
     hindi: goto onboarding_hindi on #getMessageText() == "1";
     telugu: goto onboarding_telugu on #getMessageText() == "2";
     english: goto onboarding_english on #getMessageText() == "3";
-    default: goto onboarding_english on true;
+  
   }
 }
 
-node onboarding_english {
+
   do {
     #sayText("What is your full name?");
     wait *;
